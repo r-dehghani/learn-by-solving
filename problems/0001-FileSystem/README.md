@@ -11,6 +11,15 @@ Target Folder:
               - D.dic
               - ...
 ```
+
+Sample A.dic:
+Apple | REFERENCES TO DOCS THAT CONTAINS 'Apple'
+Are | Referecnes to docs that contains 'Are'
+
+Sample B.dic:
+Book | References to docs that contains 'Books'
+Baby | References to docs that contains 'Baby'
+
               
 Each letter .dic file should contain the list of words starting with that letter and a reference to the original document which contains that word.
 
