@@ -49,6 +49,18 @@ def search_through_files(paths: dict, *args, **kwargs):
     return word_dict
 
 
+def sort_data_into_seprate_files(all_vocabs: dict, all_paths: dict, * args, **kwargs):
+    ALPHABETE = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j",
+                 "k", "l", "m", "n", "o", "p", "q", "r", "s", "t",
+                 "u", "v", "w", "x", "y", "z"]
+    for word, location in all_vocabs.items():
+        for _ in ALPHABETE:
+            if (word[0] == _) or (word[0].lower() == _):
+                with open(f"{word[0]}.text", "x") as f:
+                    f.write(str(word) + " | " + str(location) + "\n")
+
+
 if __name__ == "__main__":
     riddle_paths = riddle_text_files()
-    search_through_files(riddle_paths)
+    all_word = search_through_files(riddle_paths)
+    sort_data_into_seprate_files(all_word, riddle_paths)
