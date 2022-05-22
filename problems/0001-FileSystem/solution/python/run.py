@@ -33,11 +33,11 @@ def search_through_files(paths: dict, *args, **kwargs):
                  "u", "v", "w", "x", "y", "z"]
 
     for key, exported_path in paths.items():
-        with open(exported_path, "r") as my_file:
+        with open(exported_path, "r", encoding="utf-8") as my_file:
             line_text = my_file.readlines()
             print(line_text)
         for sentence in line_text:
-            line_words = sentence.split(" ")
+            line_words = sentence.split()
             for word in line_words:
                 if word[0] in ALPHABETE or word[0].lower() in ALPHABETE:
                     if word in word_dict.keys():
@@ -56,7 +56,7 @@ def sort_data_into_seprate_files(all_vocabs: dict, all_paths: dict, * args, **kw
     for word, location in all_vocabs.items():
         for _ in ALPHABETE:
             if (word[0] == _) or (word[0].lower() == _):
-                with open(f"{word[0]}.text", "x") as f:
+                with open(f"{word[0].lower()}.text", "a", encoding="utf-8") as f:
                     f.write(str(word) + " | " + str(location) + "\n")
 
 
