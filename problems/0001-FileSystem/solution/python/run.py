@@ -1,49 +1,66 @@
-
-
 from pathlib import Path
+
+from pyparsing import alphanums
 
 
 def riddle_text_files(*args, **kwargs):
     """this function just extract files within the current dir that it's suffix is .txt
     """
-    # from pathlib import Path 
+    paths_dict = {}
     path = Path.cwd()
     list_of_file_pathes = [p for p in path.rglob('*') if p.is_file()]
     list_of_text_files_pathes = []
+
     for path in list_of_file_pathes:
-        if path.suffix == ".txt":       # here you can change the file suffix 
+        if path.suffix == ".txt":       # here you can change the file suffix
             list_of_text_files_pathes.append(path)
-        # return list_of_text_files_pathes
-    print(f"this is the list of text file pathes")
-    print(list_of_text_files_pathes)
-    return list_of_text_files_pathes
-def extract_file_name_from_paths(riddle, *args,**kwargs):        
-    """this function return the unique  path of text files and assign one character to that path 
-        
 
-    Args:
-        riddle (list of PosixPath): this list imported from riddle_text_files function 
-    """
-    e_list_of_unique_paths = []
-    for item in riddle:
-        print(item.parent)
-        
-        if not item  in e_list_of_unique_paths:
-            e_list_of_unique_paths.append(item.parent)
-        else:
-            print("path exist!!")
-        print("="*20)
-        print(type(item))
-    
-    print("_" * 20)
-    print(e_list_of_unique_paths)
+    enum_paths = enumerate(list_of_text_files_pathes)
+
+    for count, val in enum_paths:
+        print(f"thie counter is : {count}")
+        print(f"the value is : {val}")
+        paths_dict[count] = val
+
+    return paths_dict
 
 
+def search_through_files(paths: dict, *args, **kwargs):
+    word_dict = {}
+    _ = []
+    ALPHABETE = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j",
+                 "k", "l", "m", "n", "o", "p", "q", "r", "s", "t",
+                 "u", "v", "w", "x", "y", "z"]
 
-pathes = riddle_text_files()
-# for file_path in pathes():
-#     pass
+    for key, exported_path in paths.items():
+        with open(exported_path, "r", encoding="utf-8") as my_file:
+            line_text = my_file.readlines()
+            print(line_text)
+        for sentence in line_text:
+            line_words = sentence.split()
+            for word in line_words:
+                if word[0] in ALPHABETE or word[0].lower() in ALPHABETE:
+                    if word in word_dict.keys():
+                        word_dict[word].append(key)
+
+                    else:
+                        word_dict[word] = [key]
+    print(word_dict)
+    return word_dict
+
+
+def sort_data_into_seprate_files(all_vocabs: dict, all_paths: dict, * args, **kwargs):
+    ALPHABETE = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j",
+                 "k", "l", "m", "n", "o", "p", "q", "r", "s", "t",
+                 "u", "v", "w", "x", "y", "z"]
+    for word, location in all_vocabs.items():
+        for _ in ALPHABETE:
+            if (word[0] == _) or (word[0].lower() == _):
+                with open(f"{word[0].lower()}.text", "a", encoding="utf-8") as f:
+                    f.write(str(word) + " | " + str(location) + "\n")
+
+
 if __name__ == "__main__":
     riddle_paths = riddle_text_files()
-    extracted_names = extract_file_name_from_paths(riddle_paths)
-    
+    all_word = search_through_files(riddle_paths)
+    sort_data_into_seprate_files(all_word, riddle_paths)
