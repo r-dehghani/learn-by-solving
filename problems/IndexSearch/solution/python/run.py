@@ -1,26 +1,26 @@
 from pathlib import Path
+from FileSystem.solution.python.run import riddle_text_files
 
+# def riddle_text_files(*args, **kwargs):
+#     """this function just extract files within the current dir that it's suffix is .txt
+#     """
+#     paths_dict = {}
+#     path = Path.cwd()
+#     list_of_file_pathes = [p for p in path.rglob('*') if p.is_file()]
+#     list_of_text_files_pathes = []
 
-def riddle_text_files(*args, **kwargs):
-    """this function just extract files within the current dir that it's suffix is .txt
-    """
-    paths_dict = {}
-    path = Path.cwd()
-    list_of_file_pathes = [p for p in path.rglob('*') if p.is_file()]
-    list_of_text_files_pathes = []
+#     for path in list_of_file_pathes:
+#         if path.suffix == ".txt":       # here you can change the file suffix
+#             list_of_text_files_pathes.append(path)
 
-    for path in list_of_file_pathes:
-        if path.suffix == ".txt":       # here you can change the file suffix
-            list_of_text_files_pathes.append(path)
+#     enum_paths = enumerate(list_of_text_files_pathes)
 
-    enum_paths = enumerate(list_of_text_files_pathes)
+#     for count, val in enum_paths:
+#         print(f"the related number to the path is ---> {count}")
+#         print(f"the {count} file path is ---> {val}")
+#         paths_dict[count] = val
 
-    for count, val in enum_paths:
-        print(f"the related number to the path is ---> {count}")
-        print(f"the {count} file path is ---> {val}")
-        paths_dict[count] = val
-
-    return paths_dict  # {1: c:../.../file.txt, }
+#     return paths_dict  # {1: c:../.../file.txt, }
 
 
 def recieving_words(*args, **kwargs):
