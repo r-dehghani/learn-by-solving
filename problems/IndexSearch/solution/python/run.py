@@ -1,6 +1,4 @@
 from pathlib import Path
-# from FileSystem.solution.python.run import riddle_text_files
-# from FileSystem.solution.python import run
 
 
 def riddle_text_files(*args, **kwargs):
@@ -24,59 +22,44 @@ def riddle_text_files(*args, **kwargs):
 
     return paths_dict
 
+
 def recieving_words(*args, **kwargs):
-    
-    input_words = []
-    _ = ""
-    while not "END" in _:
-        i_word = input("please input any wordyou want to search through the files --> \n")
-        _ = tuple(i_word.split(" "))
-        input_words.append(_)
-        for inputed_word in input_words:
-            if inputed_word == "END":
-                break
-            else:
-                proccess_on_given_words(inputed_word)
-                
-            
-        return(input_words) #[..., [..., ..., ], ...] the return statement give a list of tuple depend on how many word inputed by user 
+
+    i_word = input(
+        "please input any word you want to search through the files --> \n").split(" ")
+    if "END" in i_word:
+        print("you just intruppt the program!!!")
+    else:
+        proccess_on_given_words(i_word)
+        recieving_words()
 
 
-def proccess_on_given_words(words: tuple, *args, **kwargs):
+def proccess_on_given_words(words: list, *args, **kwargs):
     list_of_paths = riddle_text_files()
     x = []
     my_dic = {}
-    for word in words:
-        first_letter = word[0]
-        with open("test.text", "r", encoding="utf-8") as f:
-            # with open(f"./../../../0001-FileSystem/{first_letter}.txt", "r") as f:
-            sentence_list = f.readline()
-            print(f.name)
-            sentc_to_one_str = sentence_list.replace(" ", "")
+    first_letter = words[0][0]
+    with open("test.text", "r", encoding="utf-8") as f:
+        # with open(f"./../../../0001-FileSystem/{first_letter.lower()}.txt", "r") as f:
+        sentence_list = f.readlines()
+        for item in sentence_list:
+            sentc_to_one_str = item.replace(" ", "")
             splited_sentc = sentc_to_one_str.split("|")
-            if splited_sentc[0] == word:
+            if splited_sentc[0] in words:
                 for _ in splited_sentc[-1]:
                     if _.isnumeric():
-                        x.append(_)
                         with open(list_of_paths[int(_)], "r", encoding="utf-8") as ff:
-
                             content_sentence = ff.readlines()
                             my_dic[int(_)] = content_sentence
                             for key, val in my_dic.items():
-                                
-                                for w in val:
-                                    for word in w:
-                                        if word in w.split():
-                                            print(f"<---- {w} ---->")
-                                            print(
-                                                f"the file path number is: {key}")
-                                            print("==" * 10)
-
-            else:
-                pass
+                                for each_sentc_in_file in val:
+                                    if all(xxx in each_sentc_in_file for xxx in words):
+                                        print(
+                                            f"<---- {each_sentc_in_file} ---->")
+                                        print(
+                                            f"the file path number is: {key}")
+                                        print("==" * 10)
 
 
 if __name__ == "__main__":
-    l_o_path = riddle_text_files()
-    l_o_words = recieving_words()
-    proccess_on_given_words(l_o_words)
+    recieving_words()
