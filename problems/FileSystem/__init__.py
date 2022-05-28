@@ -1,1 +1,1 @@
-import FileSystem.solution.python.run
+from FileSystem.solution.python import run
