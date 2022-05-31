@@ -1,5 +1,5 @@
+from msilib.schema import File
 from pathlib import Path
-
 
 def riddle_text_files(*args, **kwargs):
     """this function just extract files within the current dir that it's suffix is .txt
@@ -39,8 +39,8 @@ def proccess_on_given_words(words: list, *args, **kwargs):
     x = []
     my_dic = {}
     first_letter = words[0][0]
-    with open("test.text", "r", encoding="utf-8") as f:
-        # with open(f"./../../../0001-FileSystem/{first_letter.lower()}.txt", "r") as f:
+    # with open("test.text", "r", encoding="utf-8") as f:
+    with open(f"{first_letter.lower()}.text", "r") as f:
         sentence_list = f.readlines()
         for item in sentence_list:
             sentc_to_one_str = item.replace(" ", "")

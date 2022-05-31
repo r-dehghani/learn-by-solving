@@ -33,7 +33,6 @@ def search_through_files(paths: dict, *args, **kwargs):
     for key, exported_path in paths.items():
         with open(exported_path, "r", encoding="utf-8") as my_file:
             line_text = my_file.readlines()
-            # print(line_text)
         for sentence in line_text:
             line_words = sentence.split()
             for word in line_words:
@@ -58,6 +57,7 @@ def sort_data_into_seprate_files(all_vocabs: dict, all_paths: dict, * args, **kw
 
 
 if __name__ == "__main__":
+    print("here!!") 
     riddle_paths = riddle_text_files()
     all_word = search_through_files(riddle_paths)
     sort_data_into_seprate_files(all_word, riddle_paths)
