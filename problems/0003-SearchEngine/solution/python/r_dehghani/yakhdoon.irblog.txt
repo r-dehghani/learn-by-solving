@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa-IR">
+<head>
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>blog | .:Rouhollah Dehghani:.</title>
+	
+	<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://yakhdoon.ir/wp-content/themes/makery/js/html5.js"></script>
+	<![endif]-->
+	
+	<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title=".:Rouhollah Dehghani:. &raquo; خوراک" href="http://yakhdoon.ir/feed/" />
+<link rel="alternate" type="application/rss+xml" title=".:Rouhollah Dehghani:. &raquo; خوراک دیدگاه‌ها" href="http://yakhdoon.ir/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/yakhdoon.ir\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.6"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-rtl-css'  href='http://yakhdoon.ir/wp-includes/css/dist/block-library/style-rtl.min.css?ver=5.7.6' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-vendors-style-css'  href='http://yakhdoon.ir/wp-content/plugins/woo-gutenberg-products-block/build/vendors-style.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wc-block-style-rtl-css'  href='http://yakhdoon.ir/wp-content/plugins/woo-gutenberg-products-block/build/style-rtl.css?ver=4.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css'  href='http://yakhdoon.ir/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-rtl-css'  href='http://yakhdoon.ir/wp-content/plugins/contact-form-7/includes/css/styles-rtl.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-rtl-css'  href='http://yakhdoon.ir/wp-content/plugins/woocommerce/assets/css/woocommerce-layout-rtl.css?ver=4.8.3' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-rtl-css'  href='http://yakhdoon.ir/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen-rtl.css?ver=4.8.3' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-rtl-css'  href='http://yakhdoon.ir/wp-content/plugins/woocommerce/assets/css/woocommerce-rtl.css?ver=4.8.3' type='text/css' media='all' />
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='colorbox-css'  href='http://yakhdoon.ir/wp-content/themes/makery/js/colorbox/colorbox.css?ver=5.7.6' type='text/css' media='all' />
+<link rel='stylesheet' id='general-css'  href='http://yakhdoon.ir/wp-content/themes/makery/style.css?ver=5.7.6' type='text/css' media='all' />
+<script type='text/javascript' src='http://yakhdoon.ir/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='http://yakhdoon.ir/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel="https://api.w.org/" href="http://yakhdoon.ir/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://yakhdoon.ir/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://yakhdoon.ir/wp-includes/wlwmanifest.xml" /> 
+<link rel="stylesheet" href="http://yakhdoon.ir/wp-content/themes/makery/rtl.css" type="text/css" media="screen" /><meta name="generator" content="WordPress 5.7.6" />
+<meta name="generator" content="WooCommerce 4.8.3" />
+<!-- <meta name="NextGEN" version="3.5.0" /> -->
+<link rel="shortcut icon" href="http://yakhdoon.ir/wp-content/uploads/2018/02/tie.png" /><style type="text/css">.header-wrap,.section-wrap,.footer-wrap,.widget-title,.header-menu ul ul{}.header-wrap,.section-wrap,.footer-wrap{background-size:auto;}.item-preview .item-options a.primary.active,.item-preview .item-options a.primary:hover,.item-sale,.element-button.primary,.element-button.active,.woocommerce #review_form #respond .form-submit input,.woocommerce #review_form #respond .form-submit input:hover,.woocommerce .widget_shopping_cart .button.checkout,.woocommerce a.button.alt,.woocommerce button.button.alt,.woocommerce input.button.alt,.woocommerce #respond input#submit.alt,.woocommerce #content input.button.alt,.woocommerce a.button.alt:hover,.woocommerce button.button.alt:hover,.woocommerce input.button.alt:hover,.woocommerce #respond input#submit.alt:hover,.woocommerce #content input.button.alt:hover{background-color:#ea6254;}.item-preview .item-options a.primary.active,.item-preview .item-options a.primary:hover,.element-button.primary,.element-button.active,.woocommerce #review_form #respond .form-submit input,.woocommerce #review_form #respond .form-submit input:hover,.woocommerce .widget_shopping_cart .button.checkout,.woocommerce a.button.alt,.woocommerce button.button.alt,.woocommerce input.button.alt,.woocommerce #respond input#submit.alt,.woocommerce #content input.button.alt,.woocommerce a.button.alt:hover,.woocommerce button.button.alt:hover,.woocommerce input.button.alt:hover,.woocommerce #respond input#submit.alt:hover,.woocommerce #content input.button.alt:hover{border-color:#ea6254;}.element-button,.header-cart,.items-toolbar a.active,.pagination > span,.item-preview .item-options a.active,.item-preview .item-options a.added,.item-preview .item-options a.loading,.item-preview .item-options a:hover,.woocommerce .widget_price_filter .ui-slider .ui-slider-range,.woocommerce .widget_price_filter .ui-slider .ui-slider-handle,.woocommerce a.button,.woocommerce button.button,.woocommerce input.button,.woocommerce #respond input#submit,.woocommerce #content input.button,.woocommerce a.button:hover,.woocommerce button.button:hover,.woocommerce input.button:hover,.woocommerce #respond input#submit:hover,.woocommerce #content input.button:hover{background-color:#4e8ed6;}.element-button,.items-toolbar a.active,.pagination > span,.item-preview .item-options a.active,.item-preview .item-options a.added,.item-preview .item-options a.loading,.item-preview .item-options a:hover,.woocommerce a.button,.woocommerce button.button,.woocommerce input.button,.woocommerce #respond input#submit,.woocommerce #content input.button,.woocommerce a.button:hover,.woocommerce button.button:hover,.woocommerce input.button:hover,.woocommerce #respond input#submit:hover,.woocommerce #content input.button:hover{border-color:#4e8ed6;}</style>	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<link rel="icon" href="http://yakhdoon.ir/wp-content/uploads/2018/02/workspace.png" sizes="32x32" />
+<link rel="icon" href="http://yakhdoon.ir/wp-content/uploads/2018/02/workspace.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="http://yakhdoon.ir/wp-content/uploads/2018/02/workspace.png" />
+<meta name="msapplication-TileImage" content="http://yakhdoon.ir/wp-content/uploads/2018/02/workspace.png" />
+</head>
+<body class="rtl blog theme-makery woocommerce-no-js">
+	<div class="site-wrap">
+		<div class="header-wrap clearfix">
+			<header class="site-header container">
+				<div class="header-logo left">
+					<a href="http://yakhdoon.ir/" rel="home">
+						<img src="http://yakhdoon.ir/wp-content/uploads/2020/05/site-logo-2.png" alt=".:Rouhollah Dehghani:." />
+					</a>
+				</div>
+				<!-- /logo -->
+				<div class="header-options right clearfix">
+										<a href="#login_form" class="element-button element-colorbox opaque">ورود</a>
+										
+					<div class="site-popups hidden">
+						<div id="login_form">
+							<div class="site-popup small">
+								<form class="site-form element-form" method="POST" action="http://yakhdoon.ir/wp-admin/admin-ajax.php">
+									<div class="field-wrap">
+										<input type="text" name="user_login" value="" placeholder="نام کاربری" />
+									</div>
+									<div class="field-wrap">
+										<input type="password" name="user_password" value="" placeholder="گذر واژه" />
+									</div>
+									<a href="#" class="element-button element-submit primary">ورود</a>
+																		<a href="#password_form" class="element-button element-colorbox square" title="بازسازی کلمه عبور"><span class="fa fa-life-ring"></span></a>
+									<input type="hidden" name="user_action" value="login_user" />
+									<input type="hidden" name="action" class="action" value="themex_update_user" />
+									<input type="submit" class="hidden" value="" />
+								</form>
+							</div>
+						</div>
+						<div id="password_form">
+							<div class="site-popup small">
+								<form class="site-form element-form" method="POST" action="http://yakhdoon.ir/wp-admin/admin-ajax.php">
+									<div class="field-wrap">
+										<input type="text" name="user_email" value="" placeholder="ایمیل" />
+									</div>
+									<a href="#" class="element-button element-submit primary">نوسازی گذر واژه</a>
+									<input type="hidden" name="user_action" value="reset_user" />
+									<input type="hidden" name="action" class="action" value="themex_update_user" />
+									<input type="submit" class="hidden" value="" />
+								</form>
+							</div>
+						</div>
+					</div>
+					<!-- /popups -->
+															<a href="http://yakhdoon.ir/cart/" class="element-button cart-button square" title="سبد خرید">
+						<span class="fa fa-shopping-cart large"></span>
+					</a>
+									</div>
+				<!-- /options -->
+			</header>
+			<!-- /header -->
+			<div class="site-toolbar container">
+				<nav class="header-menu element-menu left">
+					<div class="menu"><ul id="menu-%d9%81%d9%87%d8%b1%d8%b3%d8%aa-%d8%a8%d8%a7%d9%84%d8%a7%db%8c%db%8c" class="menu"><li id="menu-item-18" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-18"><a href="http://yakhdoon.ir/">خانه</a></li>
+<li id="menu-item-1627" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-141 current_page_item current_page_parent menu-item-1627"><a href="http://yakhdoon.ir/blog/" aria-current="page">blog</a></li>
+<li id="menu-item-1616" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1616"><a href="http://yakhdoon.ir/resume/">My Resume</a></li>
+<li id="menu-item-1621" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1621"><a href="http://yakhdoon.ir/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/">Contact Me</a></li>
+<li id="menu-item-1622" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1622"><a href="http://yakhdoon.ir/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/%d8%af%d8%b1%d8%a8%d8%a7%d8%b1%d9%87-%d9%85%d8%a7/">About Me</a></li>
+</ul></div>				</nav>
+				<div class="select-menu element-select redirect medium">
+					<span></span>
+					<select><option value="http://yakhdoon.ir/">خانه</option><option value="http://yakhdoon.ir/blog/">blog</option><option value="http://yakhdoon.ir/resume/">My Resume</option><option value="http://yakhdoon.ir/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/">Contact Me</option><option value="http://yakhdoon.ir/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/%d8%af%d8%b1%d8%a8%d8%a7%d8%b1%d9%87-%d9%85%d8%a7/">About Me</option></select>				</div>
+				<!-- /menu -->
+								<div class="header-cart right">
+					<a href="http://yakhdoon.ir/cart/" class="cart-amount">
+						<span class="fa fa-shopping-cart"></span>
+						<span class="woocommerce-Price-amount amount"><bdi>0<span class="woocommerce-Price-currencySymbol">تومان</span></bdi></span>					</a>
+					<div class="cart-quantity">0</div>
+				</div>
+				<!-- /cart -->
+								<div class="header-search right">
+					<form role="search" method="GET" action="http://yakhdoon.ir/">
+						<input type="text" value="" name="s" />
+												<input type="hidden" name="post_type" value="product">
+											</form>
+					<span class="fa fa-search"></span>
+				</div>
+				<!-- /search -->
+			</div>
+			<!-- /toolbar -->
+							<div class="site-title">
+					<div class="container">
+						<h1>  blog</h1>
+					</div>
+				</div>
+				<!-- /title -->
+					</div>
+		<div class="content-wrap">
+			<section class="site-content container"><aside class="sidebar column fourcol">
+	</aside>
+<div class="column eightcol last">
+		<div class="posts-wrap">
+		<article class="post clearfix post-1664 type-post status-publish format-standard hentry category-programming">
+		<div class="fullcol">
+			<div class="element-title">
+			<h1><a href="http://yakhdoon.ir/python-create-text-file-write-read-and-close-filesusing-command-line/">Python Create text file, Write, Read and Close files(using Command line)</a></h1>
+		</div>
+		<div class="post-content clearfix">
+			<p>you can give to files all sorts of commands like: Create, Write, Read and Close</p>
+		</div>
+		<div class="post-footer clearfix">
+											</div>
+	</div>
+</article><article class="post clearfix post-1660 type-post status-publish format-standard hentry category-programming">
+		<div class="fullcol">
+			<div class="element-title">
+			<h1><a href="http://yakhdoon.ir/format-string-in-python/">Format String in Python</a></h1>
+		</div>
+		<div class="post-content clearfix">
+			<p>Strings are really handy, so in this exercise, you will learn how to make strings that have variables embedded in them.</p>
+		</div>
+		<div class="post-footer clearfix">
+											</div>
+	</div>
+</article><article class="post clearfix post-1628 type-post status-publish format-standard hentry category-95">
+		<div class="fullcol">
+			<div class="element-title">
+			<h1><a href="http://yakhdoon.ir/activate-python-virtual-environment-in-vscode/">Activate Python Virtual Environment in VSCode</a></h1>
+		</div>
+		<div class="post-content clearfix">
+			<p>Hello everyone! I hope you are doing well, as usual.&nbsp; In this video I create a Virtual Environment using VS code Terminal</p>
+		</div>
+		<div class="post-footer clearfix">
+											</div>
+	</div>
+</article><article class="post clearfix post-1624 type-post status-publish format-standard hentry category-programming">
+		<div class="fullcol">
+			<div class="element-title">
+			<h1><a href="http://yakhdoon.ir/python-extention-loading/">Python Extention Loading for ever!!!</a></h1>
+		</div>
+		<div class="post-content clearfix">
+			<p>Hello, everyone! I hope you are doing well! In this Tutorial, you can find a solution for &#8220;Python Extention Loading&#8221; Forever!!! so let&#8217;s dive in&nbsp; &nbsp;</p>
+		</div>
+		<div class="post-footer clearfix">
+											</div>
+	</div>
+</article>		
+	</div>
+	</div>
+							</section>
+			<!-- /content -->			
+		</div>
+		<div class="footer-wrap">
+			<footer class="site-footer container">
+				
+				<nav class="footer-menu right">
+					<div class="menu-%d9%81%d9%87%d8%b1%d8%b3%d8%aa-%d8%b4%d8%a8%da%a9%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d8%a7%d8%ac%d8%aa%d9%85%d8%a7%d8%b9%db%8c-container"><ul id="menu-%d9%81%d9%87%d8%b1%d8%b3%d8%aa-%d8%b4%d8%a8%da%a9%d9%87%e2%80%8c%d9%87%d8%a7%db%8c-%d8%a7%d8%ac%d8%aa%d9%85%d8%a7%d8%b9%db%8c" class="menu"><li id="menu-item-394" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-141 current_page_item current_page_parent menu-item-394"><a href="http://yakhdoon.ir/blog/" aria-current="page">blog</a></li>
+<li id="menu-item-393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393"><a href="http://yakhdoon.ir/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/">Contact Me</a></li>
+<li id="menu-item-949" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-949"><a href="http://yakhdoon.ir/%d8%aa%d9%85%d8%a7%d8%b3-%d8%a8%d8%a7-%d9%85%d8%a7/%d8%af%d8%b1%d8%a8%d8%a7%d8%b1%d9%87-%d9%85%d8%a7/">About Me</a></li>
+</ul></div>				</nav>
+			</footer>
+			<!-- /footer -->
+		</div>
+	</div>
+	<!-- ngg_resource_manager_marker --><script type='text/javascript' id='contact-form-7-js-extra'>
+/* <![CDATA[ */
+var wpcf7 = {"apiSettings":{"root":"http:\/\/yakhdoon.ir\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://yakhdoon.ir/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.3.2' id='contact-form-7-js'></script>
+<script type='text/javascript' src='http://yakhdoon.ir/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70' id='jquery-blockui-js'></script>
+<script type='text/javascript' src='http://yakhdoon.ir/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4' id='js-cookie-js'></script>
+<script type='text/javascript' id='woocommerce-js-extra'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://yakhdoon.ir/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=4.8.3' id='woocommerce-js'></script>
+<script type='text/javascript' id='wc-cart-fragments-js-extra'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_97ab14434b7d877b0a880b2737fcff86","fragment_name":"wc_fragments_97ab14434b7d877b0a880b2737fcff86","request_timeout":"5000"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://yakhdoon.ir/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=4.8.3' id='wc-cart-fragments-js'></script>
+<script type='text/javascript' src='http://yakhdoon.ir/wp-includes/js/comment-reply.min.js?ver=5.7.6' id='comment-reply-js'></script>
+<script type='text/javascript' src='http://yakhdoon.ir/wp-content/themes/makery/js/jquery.hoverIntent.min.js' id='hover-intent-js'></script>
+<script type='text/javascript' src='http://yakhdoon.ir/wp-content/themes/makery/js/colorbox/jquery.colorbox.min.js' id='colorbox-js'></script>
+<script type='text/javascript' src='http://yakhdoon.ir/wp-content/themes/makery/js/jquery.placeholder.min.js' id='placeholder-js'></script>
+<script type='text/javascript' src='http://yakhdoon.ir/wp-content/themes/makery/js/jquery.themexSlider.js' id='themex-slider-js'></script>
+<script type='text/javascript' src='http://yakhdoon.ir/wp-content/themes/makery/js/jquery.themexAutosave.js' id='themex-autosave-js'></script>
+<script type='text/javascript' id='raty-js-extra'>
+/* <![CDATA[ */
+var options = {"templateDirectory":"http:\/\/yakhdoon.ir\/wp-content\/themes\/makery\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://yakhdoon.ir/wp-content/themes/makery/js/jquery.raty.min.js' id='raty-js'></script>
+<script type='text/javascript' id='general-js-extra'>
+/* <![CDATA[ */
+var options = {"templateDirectory":"http:\/\/yakhdoon.ir\/wp-content\/themes\/makery\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://yakhdoon.ir/wp-content/themes/makery/js/general.js' id='general-js'></script>
+<script type='text/javascript' src='http://yakhdoon.ir/wp-includes/js/wp-embed.min.js?ver=5.7.6' id='wp-embed-js'></script>
+
+				<!-- Live chat by LiveSupporti - https://livesupporti.com -->
+				<script type="text/javascript">
+				  (function() {
+					var s=document.createElement("script");s.type="text/javascript";s.async=true;s.id="lsInitScript";
+					s.src = "https://livesupporti.com/Scripts/clientAsync.js?acc=07c13097-41d6-49c3-bb56-4c34cc2a43f7&skin=Classic";
+					var scr=document.getElementsByTagName("script")[0];scr.parentNode.appendChild(s, scr);
+				  })();
+				</script>
+			<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})()
+	</script>
+	</body>
+</html>
+<!-- Page generated by LiteSpeed Cache 3.5.2 on 2022-06-18 22:43:34 -->
