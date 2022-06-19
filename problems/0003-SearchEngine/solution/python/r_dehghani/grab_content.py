@@ -1,9 +1,10 @@
 # import run as runiing
+from dis import findlabels
 import validators
 from bs4 import BeautifulSoup
 import urllib.request
 import os
-from more_itertools import difference
+# from more_itertools import difference
 import requests
 os.system("cls")
 
@@ -71,20 +72,23 @@ def grab_data_from_website(URL: str):
 
 
 def crawl_nested_pages(url, num_of_link_to_crawl, num_of_nest):
-    num_of_nest = 0
+    # num_of_nest = 0
     reqs = requests.get(url)
     soup = BeautifulSoup(reqs.text, 'html.parser')
-
+    x = 0
+    y = 0
     urls = []
+    final_url = []
     for link in soup.find_all('a'):
         _ = link.get('href')
         if validators.url(_):
             if not _ in urls:
                 urls.append(_)
+    final_url.extend(urls)
     with open("urls.csv", "a") as f:
         f.write(str(urls))
 
-    if int(num_of_link_to_crawl) < len(urls):
+    if int(num_of_link_to_crawl) < len(final_url):
 
         for _ in range(int(num_of_link_to_crawl)):
             grab_data_from_website(urls[_])
@@ -92,19 +96,21 @@ def crawl_nested_pages(url, num_of_link_to_crawl, num_of_nest):
         diferrence = int(num_of_link_to_crawl) - len(urls)
         x += 1
 
-        if x < num_of_nest:
+        if x < int(num_of_nest):
 
-            for _ in range(int(num_of_link_to_crawl)):
+            for _ in range(int(num_of_link_to_crawl)-len(urls)):
                 grab_data_from_website(urls[_])
             for _ in range(diferrence):
-                crawl_nested_pages(urls[_])
+                crawl_nested_pages(urls[_], diferrence, int(num_of_nest)-x)
         else:
             print("number of nested pages exceed")
 
 
 if __name__ == "__main__":
+    
     mode_num = mode_choose()
     if mode_num == "1":
+        
         # return a class of input data mode-1
         inputs_mode_1 = getting_input_from_mode_1()
         text_data = {}
@@ -117,3 +123,6 @@ if __name__ == "__main__":
 
     elif mode_num == "2":
         pass
+
+    with open("text_data.txt", "w") as f:
+        f.write(str(text_data))
